@@ -1,0 +1,86 @@
+.study-page h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #2c3e50;
+}
+
+.stats-bar {
+  display: flex;
+  justify-content: space-around;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 30px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.stats-bar span {
+  font-weight: 600;
+  color: #2c3e50;
+}
+
+.study-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.card-display {
+  margin-bottom: 40px;
+}
+
+.flip-hint {
+  text-align: center;
+  color: #666;
+  margin-top: 10px;
+  font-size: 12px;
+  font-style: italic;
+}
+
+.study-controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card-counter {
+  font-weight: 600;
+  color: #2c3e50;
+  min-width: 80px;
+  text-align: center;
+}
+
+.study-controls .btn {
+  padding: 10px 20px;
+}
+
+.study-controls .btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+@media (max-width: 768px) {
+  .stats-bar {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .stats-bar span {
+    font-size: 14px;
+  }
+
+  .study-controls {
+    flex-wrap: wrap;
+  }
+
+  .study-controls .btn {
+    flex: 1;
+    min-width: 80px;
+  }
+}
