@@ -1,0 +1,54 @@
+# System and user profile directories
+AppData/
+Application Data/
+Contacts/
+Cookies/
+Documents/
+Downloads/
+Favorites/
+Links/
+Local Settings/
+Music/
+My Documents/
+NetHood/
+OneDrive/
+Pictures/
+PrintHood/
+Recent/
+Saved Games/
+Searches/
+SendTo/
+Start Menu/
+Templates/
+Videos/
+
+# Browser and extension profiles
+.antigravity/
+.gemini/
+.copilot/
+.th-client/
+
+# VS Code and editor caches
+.vscode/
+.idea/
+
+# Windows system files
+desktop.ini
+Thumbs.db
+*.lnk
+
+# User registry/profile files
+NTUSER.DAT
+NTUSER.DAT{*}
+ntuser.dat.LOG*
+ntuser.ini
+
+# Git-related
+.git/
+
+# Miscellaneous
+*.log
+*.swp
+*.swo
+*~
+.DS_Store
